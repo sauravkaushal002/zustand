@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useTodoStore } from "../store/TodoStore";
+import { useTodoStore } from "../store-zustand/TodoStore";
 // import useTodoStore from '../store/TodoStore'
-const Todo = ({ text, id }) => {
+const Todo = () => {
   const [tododata, setTododata] = useState("");
 
   // const todos = useTodoStore(state=>state.todos)
